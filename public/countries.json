@@ -1,0 +1,27 @@
+{
+    "Europe": {
+        "Germany": 101,
+        "France": 102,
+        "Italy": 103
+    },
+    "Asia": {
+        "Japan": 201,
+        "South Korea": 202,
+        "India": 203
+    },
+    "North America": {
+        "United States": 301,
+        "Canada": 302,
+        "Mexico": 303
+    },
+    "South America": {
+        "Brazil": 401,
+        "Argentina": 402,
+        "Colombia": 403
+    },
+    "Africa": {
+        "Nigeria": 501,
+        "South Africa": 502,
+        "Egypt": 503
+    }
+}

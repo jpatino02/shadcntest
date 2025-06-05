@@ -1,0 +1,12 @@
+{
+    "JavaScript": 1,
+    "TypeScript": 2,
+    "Python": 3,
+    "Java": 4,
+    "Go": 5,
+    "Rust": 6,
+    "C#": 7,
+    "Ruby": 8,
+    "PHP": 9,
+    "Swift": 10
+}
