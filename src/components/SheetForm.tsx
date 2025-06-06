@@ -107,12 +107,12 @@ export function SheetForm() {
                 <SheetHeader>
                     <SheetTitle>Add New Customer</SheetTitle>
                 </SheetHeader>
-                <div className="flex-grow overflow-y-auto px-2 space-y-6">
-                    <div className="grid items-center gap-4">
+                <div className="flex-grow overflow-y-auto px-2 mb-2">
+                    <div>
                         <Form {...form}>
                             <form
                                 onSubmit={form.handleSubmit(onSubmit)}
-                                className="space-y-8"
+                                className="space-y-4"
                             >
                                 <FormField
                                     control={form.control}

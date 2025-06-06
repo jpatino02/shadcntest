@@ -50,6 +50,7 @@ import { utils, writeFileXLSX } from "xlsx";
 import { unparse } from "papaparse";
 import { useTheme } from "next-themes";
 import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
+import { cn } from "@/lib/utils";
 
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[];
@@ -130,7 +131,6 @@ export function DataTable<TData, TValue>({
                     position: "sticky",
                     [isLeft ? "left" : "right"]: offset,
                     zIndex: 10,
-                    background: theme === "light" ? "white" : "#161B22",
                 };
             });
 

@@ -36,11 +36,11 @@ export default function ElementsPreview() {
             <div className="flex space-x-2">
                 <Button>Primary</Button>
                 <Button variant="secondary">Secondary</Button>
-                <Button variant="outline" className="outline-button">
-                    Outline
-                </Button>
+                <Button variant="outline">Outline</Button>
                 <Button variant="ghost">Ghost</Button>
-                <Button variant="destructive">Destructive</Button>
+                <Button variant="destructive" className="destructive-button">
+                    Destructive
+                </Button>
                 <Button variant="link">Link</Button>
             </div>
             <div className="flex space-x-2">
@@ -50,17 +50,17 @@ export default function ElementsPreview() {
                 <Button variant="secondary" size="icon">
                     <Edit />
                 </Button>
+                <Button variant="outline" size="icon">
+                    <Edit />
+                </Button>
+                <Button variant="ghost" size="icon" className="ghost-button">
+                    <Edit />
+                </Button>
                 <Button
-                    variant="outline"
+                    variant="destructive"
                     size="icon"
-                    className="outline-button"
+                    className="destructive-button"
                 >
-                    <Edit />
-                </Button>
-                <Button variant="ghost" size="icon">
-                    <Edit />
-                </Button>
-                <Button variant="destructive" size="icon">
                     <Edit />
                 </Button>
                 <Button variant="link" size="icon">
